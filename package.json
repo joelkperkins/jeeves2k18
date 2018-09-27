@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/joelkperkins/jeeves2k18/issues"
   },
-  "homepage": "https://github.com/joelkperkins/jeeves2k18#readme"
+  "homepage": "https://github.com/joelkperkins/jeeves2k18#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
