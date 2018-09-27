@@ -1,0 +1,23 @@
+{
+  "name": "jeeves2k18",
+  "version": "1.0.0",
+  "description": "Personal Web Agent",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelkperkins/jeeves2k18.git"
+  },
+  "keywords": [
+    "dialogflow"
+  ],
+  "author": "Joel Perkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelkperkins/jeeves2k18/issues"
+  },
+  "homepage": "https://github.com/joelkperkins/jeeves2k18#readme"
+}
