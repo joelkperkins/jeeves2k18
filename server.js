@@ -8,6 +8,6 @@ http.createServer((request, response) => {
   if (request.method === 'POST') {
     console.log('Jeeves is here.');
   }
-}).listen(3000);
+}).listen(process.env.PORT || 3000);
 
-console.log('Jeeves is listening on 3000');
+console.log(`Jeeves is listening on ${process.env.PORT} or 3000`);
