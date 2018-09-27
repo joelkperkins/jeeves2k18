@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Jeeves 2k18",
+  "description": "My absolute man, Jeeves. Personal Web Assistant ",
+  "version": "1.0",
+  "minimum_chrome_version": "20",
+  // "content_security_policy": "script-src 'self' 'sha256-WOdSzz11/3cpqOdrm89LBL2UPwEU9EhbDtMy2OciEhs='",
+  "permissions": [
+  "tabs", "activeTab"],
+  "content_scripts": [
+    {
+      "js": ["logic.js", "jquery.js"],
+      "matches": ["<all_urls>"]
+    }],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
