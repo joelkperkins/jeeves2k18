@@ -2,9 +2,11 @@ const express = require('express');
 
 const app = express();
 const port = process.env.PORT;
-let bodyParser = require('body-parser');
+const bodyParser = require('body-parser');
 
-app.post((req, res) => console.log(('Hello, I am Jeeves!')));
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
-app.listen(port, () => console.log(`Jeeves is on port ${port}!`))
-;
+app.post('handle', (req, res) => console.log(('Hello, I am Jeeves!')));
+
+app.listen(port, () => console.log(`Jeeves is on port ${port}!`));
