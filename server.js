@@ -7,7 +7,7 @@ http.createServer((request, response) => {
   console.log(request.url);
   if (request.method === 'POST') {
     console.log('Jeeves is here.');
-    console.log('Jeeves is looking for: ', request);
+    console.log('Jeeves is looking for: ', request.body);
     response.end(JSON.parse('Hello'));
   }
 }).listen(process.env.PORT || 3000);
