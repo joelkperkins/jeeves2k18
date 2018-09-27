@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.post((req, res) => console.log(('Hello, I am Jeeves!')));
+app.post('https://jeeves2k18.herokuapp.com/',
+  (req, res) => console.log(('Hello, I am Jeeves!')));
 
 app.listen(port, () => console.log(`Jeeves is on port ${port}!`));
