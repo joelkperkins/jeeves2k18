@@ -7,6 +7,6 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.post('handle', (req, res) => console.log(('Hello, I am Jeeves!')));
+app.post((req, res) => console.log(('Hello, I am Jeeves!')));
 
 app.listen(port, () => console.log(`Jeeves is on port ${port}!`));
