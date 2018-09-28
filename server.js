@@ -1,10 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { dialogflow } = require('actions-on-google');
+
 const app = dialogflow();
 const port = process.env.PORT;
-const bodyParser = require('body-parser');
 const fetch = require('node-fetch');
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
