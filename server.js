@@ -28,7 +28,7 @@ const mdnLogo = 'https://res.infoq.com/news/2017/06/mdn-web-documentation-update
 
 exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, response) => {
   const agent = new WebhookClient({ request, response });
-  console.log(`Dialogflow Request headers: ${ JSON.stringify(request.headers)}`);
+  console.log(`Dialogflow Request headers: ${JSON.stringify(request.headers)}`);
   console.log(`Dialogflow Request body: ${JSON.stringify(request.body)}`);
 
 
@@ -41,34 +41,33 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
       .then(data => data.json())
       .then(data => console.log('This is Jeeves, I just parsed this data:', data.items[0]));
 
- 
-  
-  //     mdnResults = new Card({
-  //       title: `MDN: ${SEARCH}`,
-  //       imageUrl: mdnLogo,
-  //       text: 'Daniel Gabriel Fahrenheit, invented the Fahrenheit scale (first widely used, standardized temperature scale) and the mercury thermometer.',
-  //       buttonText: 'Fahrenheit Wikipedia Page',
-  //       buttonUrl: wikipediaFahrenheitUrl,
-  //     });
-  //   } else if (unit === 'Fahrenheit') {
-  //     convertedTemp = (temperature - 32) * (5 / 9);
-  //     convertedUnit = 'Celsius';
-  //     temperatureHistory = new Card({
-  //       title: 'Celsius',
-  //       imageUrl: wikipediaCelsiusImageUrl,
-  //       text: 'The original Celsius thermometer had a reversed scale, where 100 is the freezing point of water and 0 is its boiling point.',
-  //       buttonText: 'Celsius Wikipedia Page',
-  //       buttonUrl: wikipediaCelsiusUrl,
-  //     });
-  //   }
 
-  //   // Sent the context to store the parameter information
-  //   // and make sure the followup Rankine
-  //   agent.setContext({
-  //     name: 'temperature',
-  //     lifespan: 1,
-  //     parameters: { temperature, unit },
-  //   });
+    //     mdnResults = new Card({
+    //       title: `MDN: ${SEARCH}`,
+    //       imageUrl: mdnLogo,
+    //       text: 'Daniel Gabriel Fahrenheit, invented the Fahrenheit scale (first widely used, standardized temperature scale) and the mercury thermometer.',
+    //       buttonText: 'Fahrenheit Wikipedia Page',
+    //       buttonUrl: wikipediaFahrenheitUrl,
+    //     });
+    //   } else if (unit === 'Fahrenheit') {
+    //     convertedTemp = (temperature - 32) * (5 / 9);
+    //     convertedUnit = 'Celsius';
+    //     temperatureHistory = new Card({
+    //       title: 'Celsius',
+    //       imageUrl: wikipediaCelsiusImageUrl,
+    //       text: 'The original Celsius thermometer had a reversed scale, where 100 is the freezing point of water and 0 is its boiling point.',
+    //       buttonText: 'Celsius Wikipedia Page',
+    //       buttonUrl: wikipediaCelsiusUrl,
+    //     });
+    //   }
+
+    //   // Sent the context to store the parameter information
+    //   // and make sure the followup Rankine
+    //   agent.setContext({
+    //     name: 'temperature',
+    //     lifespan: 1,
+    //     parameters: { temperature, unit },
+    //   });
 
   //   // Compile and send response
   //   agent.add(`${temperature}° ${unit} is  ${convertedTemp}° ${convertedUnit}`);
@@ -78,6 +77,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   //   agent.add(new Suggestion('Rankine'));
   //   agent.add(new Suggestion('Cancel'));
   // }
+  }
 
   function fallback(agent) {
     agent.add('I didn\'t get that, can you try again?');
@@ -89,6 +89,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   intentMap.set('Default Fallback Intent', fallback);
   agent.handleRequest(intentMap);
 });
+
 
 /** ******************************************************************************** */
 app.listen(port, () => console.log(`Jeeves is on port ${port}!`));
