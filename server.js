@@ -1,8 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-// const { dialogflow } = require('actions-on-google');
+const { dialogflow } = require('actions-on-google');
 
-const app = express();
+const app = dialogflow();
 const port = process.env.PORT;
 const fetch = require('node-fetch');
 
