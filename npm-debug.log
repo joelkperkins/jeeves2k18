@@ -24,19 +24,19 @@
 23 silly mapToRegistry uri https://registry.npmjs.org/express
 24 verbose request uri https://registry.npmjs.org/express
 25 verbose request no auth needed
-26 info attempt registry request try #1 at 1:05:49 AM
-27 verbose request id e69cb4e58a738a8e
+26 info attempt registry request try #1 at 1:43:24 AM
+27 verbose request id b380243c1b0438f3
 28 verbose etag W/"1c982d2198c02c29c481b4af97a451b6"
 29 verbose lastModified Thu, 06 Sep 2018 03:36:28 GMT
 30 http request GET https://registry.npmjs.org/express
 31 http 304 https://registry.npmjs.org/express
-32 verbose headers { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
+32 verbose headers { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
 32 verbose headers   connection: 'keep-alive',
 32 verbose headers   'set-cookie':
-32 verbose headers    [ '__cfduid=dc2dead1cf071c95e8307ff6d9483bf6a1538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+32 verbose headers    [ '__cfduid=d09f495db9f8ff8f8e3b6b291528e1f501538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 32 verbose headers   'cf-cache-status': 'HIT',
 32 verbose headers   'cache-control': 'max-age=300',
-32 verbose headers   'cf-ray': '4614b50d3b4299bb-LAX',
+32 verbose headers   'cf-ray': '4614ec1a8ed413e9-LAX',
 32 verbose headers   etag: '"1c982d2198c02c29c481b4af97a451b6"',
 32 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 32 verbose headers   'last-modified': 'Thu, 06 Sep 2018 03:36:28 GMT',
@@ -44,13 +44,13 @@
 32 verbose headers   'x-amz-meta-rev': '3861-c00fc86ee33d583f612b0f36d5361b8e',
 32 verbose headers   server: 'cloudflare' }
 33 silly get cb [ 304,
-33 silly get   { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
+33 silly get   { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
 33 silly get     connection: 'keep-alive',
 33 silly get     'set-cookie':
-33 silly get      [ '__cfduid=dc2dead1cf071c95e8307ff6d9483bf6a1538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+33 silly get      [ '__cfduid=d09f495db9f8ff8f8e3b6b291528e1f501538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 33 silly get     'cf-cache-status': 'HIT',
 33 silly get     'cache-control': 'max-age=300',
-33 silly get     'cf-ray': '4614b50d3b4299bb-LAX',
+33 silly get     'cf-ray': '4614ec1a8ed413e9-LAX',
 33 silly get     etag: '"1c982d2198c02c29c481b4af97a451b6"',
 33 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 33 silly get     'last-modified': 'Thu, 06 Sep 2018 03:36:28 GMT',
@@ -193,31 +193,31 @@
 60 silly mapToRegistry uri https://registry.npmjs.org/body-parser
 61 verbose request uri https://registry.npmjs.org/body-parser
 62 verbose request no auth needed
-63 info attempt registry request try #1 at 1:05:49 AM
+63 info attempt registry request try #1 at 1:43:25 AM
 64 verbose etag W/"247d19400f6d89c9ace982917be1d9e4"
 65 verbose lastModified Thu, 02 Aug 2018 09:56:30 GMT
 66 http request GET https://registry.npmjs.org/body-parser
 67 http 304 https://registry.npmjs.org/body-parser
-68 verbose headers { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
+68 verbose headers { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
 68 verbose headers   connection: 'keep-alive',
 68 verbose headers   'set-cookie':
-68 verbose headers    [ '__cfduid=dc2dead1cf071c95e8307ff6d9483bf6a1538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+68 verbose headers    [ '__cfduid=d09f495db9f8ff8f8e3b6b291528e1f501538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 68 verbose headers   'cf-cache-status': 'HIT',
 68 verbose headers   'cache-control': 'max-age=300',
-68 verbose headers   'cf-ray': '4614b50e3baf99bb-LAX',
+68 verbose headers   'cf-ray': '4614ec1c3f3f13e9-LAX',
 68 verbose headers   etag: '"247d19400f6d89c9ace982917be1d9e4"',
 68 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 68 verbose headers   'last-modified': 'Thu, 02 Aug 2018 09:56:30 GMT',
 68 verbose headers   vary: 'accept-encoding, accept',
 68 verbose headers   server: 'cloudflare' }
 69 silly get cb [ 304,
-69 silly get   { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
+69 silly get   { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
 69 silly get     connection: 'keep-alive',
 69 silly get     'set-cookie':
-69 silly get      [ '__cfduid=dc2dead1cf071c95e8307ff6d9483bf6a1538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+69 silly get      [ '__cfduid=d09f495db9f8ff8f8e3b6b291528e1f501538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 69 silly get     'cf-cache-status': 'HIT',
 69 silly get     'cache-control': 'max-age=300',
-69 silly get     'cf-ray': '4614b50e3baf99bb-LAX',
+69 silly get     'cf-ray': '4614ec1c3f3f13e9-LAX',
 69 silly get     etag: '"247d19400f6d89c9ace982917be1d9e4"',
 69 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 69 silly get     'last-modified': 'Thu, 02 Aug 2018 09:56:30 GMT',
@@ -258,24 +258,24 @@
 96 silly mapToRegistry uri https://registry.npmjs.org/raw-body
 97 verbose request uri https://registry.npmjs.org/iconv-lite
 98 verbose request no auth needed
-99 info attempt registry request try #1 at 1:05:49 AM
+99 info attempt registry request try #1 at 1:43:25 AM
 100 verbose etag W/"533857c9c79701496be33612dd529dcb"
 101 verbose lastModified Tue, 25 Sep 2018 02:45:30 GMT
 102 http request GET https://registry.npmjs.org/iconv-lite
 103 verbose request uri https://registry.npmjs.org/raw-body
 104 verbose request no auth needed
-105 info attempt registry request try #1 at 1:05:49 AM
+105 info attempt registry request try #1 at 1:43:25 AM
 106 verbose etag W/"23a20b3fb2aae88192a0552cfee0ceed"
 107 verbose lastModified Sun, 27 May 2018 13:37:30 GMT
 108 http request GET https://registry.npmjs.org/raw-body
 109 http 304 https://registry.npmjs.org/iconv-lite
-110 verbose headers { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
+110 verbose headers { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
 110 verbose headers   connection: 'keep-alive',
 110 verbose headers   'set-cookie':
-110 verbose headers    [ '__cfduid=dc2dead1cf071c95e8307ff6d9483bf6a1538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+110 verbose headers    [ '__cfduid=d09f495db9f8ff8f8e3b6b291528e1f501538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 110 verbose headers   'cf-cache-status': 'HIT',
 110 verbose headers   'cache-control': 'max-age=300',
-110 verbose headers   'cf-ray': '4614b50eabd199bb-LAX',
+110 verbose headers   'cf-ray': '4614ec1d4f6213e9-LAX',
 110 verbose headers   etag: '"533857c9c79701496be33612dd529dcb"',
 110 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 110 verbose headers   'last-modified': 'Tue, 25 Sep 2018 02:45:30 GMT',
@@ -283,13 +283,13 @@
 110 verbose headers   'x-amz-meta-rev': '203-dfc269cf159bfa106fed31cd2a92c44f',
 110 verbose headers   server: 'cloudflare' }
 111 silly get cb [ 304,
-111 silly get   { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
+111 silly get   { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
 111 silly get     connection: 'keep-alive',
 111 silly get     'set-cookie':
-111 silly get      [ '__cfduid=dc2dead1cf071c95e8307ff6d9483bf6a1538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+111 silly get      [ '__cfduid=d09f495db9f8ff8f8e3b6b291528e1f501538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 111 silly get     'cf-cache-status': 'HIT',
 111 silly get     'cache-control': 'max-age=300',
-111 silly get     'cf-ray': '4614b50eabd199bb-LAX',
+111 silly get     'cf-ray': '4614ec1d4f6213e9-LAX',
 111 silly get     etag: '"533857c9c79701496be33612dd529dcb"',
 111 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 111 silly get     'last-modified': 'Tue, 25 Sep 2018 02:45:30 GMT',
@@ -315,56 +315,56 @@
 122 silly mapToRegistry registry https://registry.npmjs.org/
 123 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
 124 verbose addNameVersion registry:https://registry.npmjs.org/iconv-lite not in flight; fetching
-125 verbose get https://registry.npmjs.org/iconv-lite not expired, no request
-126 silly cache afterAdd iconv-lite@0.4.19
-127 verbose afterAdd /home/warlock/.npm/iconv-lite/0.4.19/package/package.json not in flight; writing
-128 verbose afterAdd /home/warlock/.npm/iconv-lite/0.4.19/package/package.json written
-129 http 304 https://registry.npmjs.org/raw-body
-130 verbose headers { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
-130 verbose headers   connection: 'keep-alive',
-130 verbose headers   'set-cookie':
-130 verbose headers    [ '__cfduid=d1e8b283f1ddac89cd693de46470729351538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-130 verbose headers   'cf-cache-status': 'HIT',
-130 verbose headers   'cache-control': 'max-age=300',
-130 verbose headers   'cf-ray': '4614b50ebf7a9967-LAX',
-130 verbose headers   etag: '"23a20b3fb2aae88192a0552cfee0ceed"',
-130 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-130 verbose headers   'last-modified': 'Sun, 27 May 2018 13:37:30 GMT',
-130 verbose headers   vary: 'accept-encoding, accept',
-130 verbose headers   server: 'cloudflare' }
-131 silly get cb [ 304,
-131 silly get   { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
-131 silly get     connection: 'keep-alive',
-131 silly get     'set-cookie':
-131 silly get      [ '__cfduid=d1e8b283f1ddac89cd693de46470729351538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-131 silly get     'cf-cache-status': 'HIT',
-131 silly get     'cache-control': 'max-age=300',
-131 silly get     'cf-ray': '4614b50ebf7a9967-LAX',
-131 silly get     etag: '"23a20b3fb2aae88192a0552cfee0ceed"',
-131 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-131 silly get     'last-modified': 'Sun, 27 May 2018 13:37:30 GMT',
-131 silly get     vary: 'accept-encoding, accept',
-131 silly get     server: 'cloudflare' } ]
-132 verbose etag https://registry.npmjs.org/raw-body from cache
-133 verbose get saving raw-body to /home/warlock/.npm/registry.npmjs.org/raw-body/.cache.json
-134 silly resolveWithNewModule raw-body@2.3.2 checking installable status
-135 silly cache add args [ 'raw-body@2.3.2', null ]
-136 verbose cache add spec raw-body@2.3.2
-137 silly cache add parsed spec Result {
-137 silly cache add   raw: 'raw-body@2.3.2',
-137 silly cache add   scope: null,
-137 silly cache add   name: 'raw-body',
-137 silly cache add   rawSpec: '2.3.2',
-137 silly cache add   spec: '2.3.2',
-137 silly cache add   type: 'version' }
-138 silly addNamed raw-body@2.3.2
-139 verbose addNamed "2.3.2" is a plain semver version for raw-body
-140 silly mapToRegistry name raw-body
-141 silly mapToRegistry using default registry
-142 silly mapToRegistry registry https://registry.npmjs.org/
-143 silly mapToRegistry uri https://registry.npmjs.org/raw-body
-144 verbose addNameVersion registry:https://registry.npmjs.org/raw-body not in flight; fetching
-145 verbose get https://registry.npmjs.org/raw-body not expired, no request
+125 http 304 https://registry.npmjs.org/raw-body
+126 verbose headers { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
+126 verbose headers   connection: 'keep-alive',
+126 verbose headers   'set-cookie':
+126 verbose headers    [ '__cfduid=d275e93333390e69be419ac3f56c9228f1538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+126 verbose headers   'cf-cache-status': 'HIT',
+126 verbose headers   'cache-control': 'max-age=300',
+126 verbose headers   'cf-ray': '4614ec1d6cec22e2-LAX',
+126 verbose headers   etag: '"23a20b3fb2aae88192a0552cfee0ceed"',
+126 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+126 verbose headers   'last-modified': 'Sun, 27 May 2018 13:37:30 GMT',
+126 verbose headers   vary: 'accept-encoding, accept',
+126 verbose headers   server: 'cloudflare' }
+127 silly get cb [ 304,
+127 silly get   { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
+127 silly get     connection: 'keep-alive',
+127 silly get     'set-cookie':
+127 silly get      [ '__cfduid=d275e93333390e69be419ac3f56c9228f1538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+127 silly get     'cf-cache-status': 'HIT',
+127 silly get     'cache-control': 'max-age=300',
+127 silly get     'cf-ray': '4614ec1d6cec22e2-LAX',
+127 silly get     etag: '"23a20b3fb2aae88192a0552cfee0ceed"',
+127 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+127 silly get     'last-modified': 'Sun, 27 May 2018 13:37:30 GMT',
+127 silly get     vary: 'accept-encoding, accept',
+127 silly get     server: 'cloudflare' } ]
+128 verbose etag https://registry.npmjs.org/raw-body from cache
+129 verbose get saving raw-body to /home/warlock/.npm/registry.npmjs.org/raw-body/.cache.json
+130 verbose get https://registry.npmjs.org/iconv-lite not expired, no request
+131 silly resolveWithNewModule raw-body@2.3.2 checking installable status
+132 silly cache add args [ 'raw-body@2.3.2', null ]
+133 verbose cache add spec raw-body@2.3.2
+134 silly cache add parsed spec Result {
+134 silly cache add   raw: 'raw-body@2.3.2',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'raw-body',
+134 silly cache add   rawSpec: '2.3.2',
+134 silly cache add   spec: '2.3.2',
+134 silly cache add   type: 'version' }
+135 silly addNamed raw-body@2.3.2
+136 verbose addNamed "2.3.2" is a plain semver version for raw-body
+137 silly mapToRegistry name raw-body
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+141 verbose addNameVersion registry:https://registry.npmjs.org/raw-body not in flight; fetching
+142 verbose get https://registry.npmjs.org/raw-body not expired, no request
+143 silly cache afterAdd iconv-lite@0.4.19
+144 verbose afterAdd /home/warlock/.npm/iconv-lite/0.4.19/package/package.json not in flight; writing
+145 verbose afterAdd /home/warlock/.npm/iconv-lite/0.4.19/package/package.json written
 146 silly cache afterAdd raw-body@2.3.2
 147 verbose afterAdd /home/warlock/.npm/raw-body/2.3.2/package/package.json not in flight; writing
 148 verbose afterAdd /home/warlock/.npm/raw-body/2.3.2/package/package.json written
@@ -375,18 +375,18 @@
 153 silly mapToRegistry uri https://registry.npmjs.org/http-errors
 154 verbose request uri https://registry.npmjs.org/http-errors
 155 verbose request no auth needed
-156 info attempt registry request try #1 at 1:05:49 AM
+156 info attempt registry request try #1 at 1:43:25 AM
 157 verbose etag W/"18d5dcd33e8fcce01a42d16122cc00de"
 158 verbose lastModified Sat, 08 Sep 2018 22:16:36 GMT
 159 http request GET https://registry.npmjs.org/http-errors
 160 http 304 https://registry.npmjs.org/http-errors
-161 verbose headers { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
+161 verbose headers { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
 161 verbose headers   connection: 'keep-alive',
 161 verbose headers   'set-cookie':
-161 verbose headers    [ '__cfduid=dc2dead1cf071c95e8307ff6d9483bf6a1538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+161 verbose headers    [ '__cfduid=d09f495db9f8ff8f8e3b6b291528e1f501538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 161 verbose headers   'cf-cache-status': 'HIT',
 161 verbose headers   'cache-control': 'max-age=300',
-161 verbose headers   'cf-ray': '4614b50efc0e99bb-LAX',
+161 verbose headers   'cf-ray': '4614ec1eafa213e9-LAX',
 161 verbose headers   etag: '"18d5dcd33e8fcce01a42d16122cc00de"',
 161 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 161 verbose headers   'last-modified': 'Sat, 08 Sep 2018 22:16:36 GMT',
@@ -394,13 +394,13 @@
 161 verbose headers   'x-amz-meta-rev': '87-a89b1b018e06cd46d8935990c487d1cf',
 161 verbose headers   server: 'cloudflare' }
 162 silly get cb [ 304,
-162 silly get   { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
+162 silly get   { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
 162 silly get     connection: 'keep-alive',
 162 silly get     'set-cookie':
-162 silly get      [ '__cfduid=dc2dead1cf071c95e8307ff6d9483bf6a1538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+162 silly get      [ '__cfduid=d09f495db9f8ff8f8e3b6b291528e1f501538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 162 silly get     'cf-cache-status': 'HIT',
 162 silly get     'cache-control': 'max-age=300',
-162 silly get     'cf-ray': '4614b50efc0e99bb-LAX',
+162 silly get     'cf-ray': '4614ec1eafa213e9-LAX',
 162 silly get     etag: '"18d5dcd33e8fcce01a42d16122cc00de"',
 162 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 162 silly get     'last-modified': 'Sat, 08 Sep 2018 22:16:36 GMT',
@@ -440,39 +440,39 @@
 187 silly mapToRegistry using default registry
 188 silly mapToRegistry registry https://registry.npmjs.org/
 189 silly mapToRegistry uri https://registry.npmjs.org/setprototypeof
-190 verbose request uri https://registry.npmjs.org/setprototypeof
+190 verbose request uri https://registry.npmjs.org/depd
 191 verbose request no auth needed
-192 info attempt registry request try #1 at 1:05:49 AM
-193 verbose etag W/"70f646ec16e53d6f2f4e91b016a868f6"
-194 verbose lastModified Fri, 03 Aug 2018 00:42:29 GMT
-195 http request GET https://registry.npmjs.org/setprototypeof
-196 verbose request uri https://registry.npmjs.org/depd
+192 info attempt registry request try #1 at 1:43:25 AM
+193 verbose etag W/"9150e87559c898ce3ac0d1c8d2d8ae9b"
+194 verbose lastModified Sat, 26 May 2018 21:59:06 GMT
+195 http request GET https://registry.npmjs.org/depd
+196 verbose request uri https://registry.npmjs.org/setprototypeof
 197 verbose request no auth needed
-198 info attempt registry request try #1 at 1:05:49 AM
-199 verbose etag W/"9150e87559c898ce3ac0d1c8d2d8ae9b"
-200 verbose lastModified Sat, 26 May 2018 21:59:06 GMT
-201 http request GET https://registry.npmjs.org/depd
+198 info attempt registry request try #1 at 1:43:25 AM
+199 verbose etag W/"70f646ec16e53d6f2f4e91b016a868f6"
+200 verbose lastModified Fri, 03 Aug 2018 00:42:29 GMT
+201 http request GET https://registry.npmjs.org/setprototypeof
 202 http 304 https://registry.npmjs.org/setprototypeof
-203 verbose headers { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
+203 verbose headers { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
 203 verbose headers   connection: 'keep-alive',
 203 verbose headers   'set-cookie':
-203 verbose headers    [ '__cfduid=d1e8b283f1ddac89cd693de46470729351538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+203 verbose headers    [ '__cfduid=d09f495db9f8ff8f8e3b6b291528e1f501538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 203 verbose headers   'cf-cache-status': 'HIT',
 203 verbose headers   'cache-control': 'max-age=300',
-203 verbose headers   'cf-ray': '4614b50f2fbc9967-LAX',
+203 verbose headers   'cf-ray': '4614ec1f5fc613e9-LAX',
 203 verbose headers   etag: '"70f646ec16e53d6f2f4e91b016a868f6"',
 203 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 203 verbose headers   'last-modified': 'Fri, 03 Aug 2018 00:42:29 GMT',
 203 verbose headers   vary: 'accept-encoding, accept',
 203 verbose headers   server: 'cloudflare' }
 204 silly get cb [ 304,
-204 silly get   { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
+204 silly get   { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
 204 silly get     connection: 'keep-alive',
 204 silly get     'set-cookie':
-204 silly get      [ '__cfduid=d1e8b283f1ddac89cd693de46470729351538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+204 silly get      [ '__cfduid=d09f495db9f8ff8f8e3b6b291528e1f501538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 204 silly get     'cf-cache-status': 'HIT',
 204 silly get     'cache-control': 'max-age=300',
-204 silly get     'cf-ray': '4614b50f2fbc9967-LAX',
+204 silly get     'cf-ray': '4614ec1f5fc613e9-LAX',
 204 silly get     etag: '"70f646ec16e53d6f2f4e91b016a868f6"',
 204 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 204 silly get     'last-modified': 'Fri, 03 Aug 2018 00:42:29 GMT',
@@ -481,26 +481,26 @@
 205 verbose etag https://registry.npmjs.org/setprototypeof from cache
 206 verbose get saving setprototypeof to /home/warlock/.npm/registry.npmjs.org/setprototypeof/.cache.json
 207 http 304 https://registry.npmjs.org/depd
-208 verbose headers { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
+208 verbose headers { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
 208 verbose headers   connection: 'keep-alive',
 208 verbose headers   'set-cookie':
-208 verbose headers    [ '__cfduid=dc2dead1cf071c95e8307ff6d9483bf6a1538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+208 verbose headers    [ '__cfduid=d275e93333390e69be419ac3f56c9228f1538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 208 verbose headers   'cf-cache-status': 'HIT',
 208 verbose headers   'cache-control': 'max-age=300',
-208 verbose headers   'cf-ray': '4614b50f2c2599bb-LAX',
+208 verbose headers   'cf-ray': '4614ec1f5e0c22e2-LAX',
 208 verbose headers   etag: '"9150e87559c898ce3ac0d1c8d2d8ae9b"',
 208 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 208 verbose headers   'last-modified': 'Sat, 26 May 2018 21:59:06 GMT',
 208 verbose headers   vary: 'accept-encoding, accept',
 208 verbose headers   server: 'cloudflare' }
 209 silly get cb [ 304,
-209 silly get   { date: 'Fri, 28 Sep 2018 08:05:50 GMT',
+209 silly get   { date: 'Fri, 28 Sep 2018 08:43:25 GMT',
 209 silly get     connection: 'keep-alive',
 209 silly get     'set-cookie':
-209 silly get      [ '__cfduid=dc2dead1cf071c95e8307ff6d9483bf6a1538121950; expires=Sat, 28-Sep-19 08:05:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+209 silly get      [ '__cfduid=d275e93333390e69be419ac3f56c9228f1538124205; expires=Sat, 28-Sep-19 08:43:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 209 silly get     'cf-cache-status': 'HIT',
 209 silly get     'cache-control': 'max-age=300',
-209 silly get     'cf-ray': '4614b50f2c2599bb-LAX',
+209 silly get     'cf-ray': '4614ec1f5e0c22e2-LAX',
 209 silly get     etag: '"9150e87559c898ce3ac0d1c8d2d8ae9b"',
 209 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 209 silly get     'last-modified': 'Sat, 26 May 2018 21:59:06 GMT',
@@ -508,62 +508,77 @@
 209 silly get     server: 'cloudflare' } ]
 210 verbose etag https://registry.npmjs.org/depd from cache
 211 verbose get saving depd to /home/warlock/.npm/registry.npmjs.org/depd/.cache.json
-212 silly resolveWithNewModule setprototypeof@1.0.3 checking installable status
-213 silly cache add args [ 'setprototypeof@1.0.3', null ]
-214 verbose cache add spec setprototypeof@1.0.3
+212 silly resolveWithNewModule depd@1.1.1 checking installable status
+213 silly cache add args [ 'depd@1.1.1', null ]
+214 verbose cache add spec depd@1.1.1
 215 silly cache add parsed spec Result {
-215 silly cache add   raw: 'setprototypeof@1.0.3',
+215 silly cache add   raw: 'depd@1.1.1',
 215 silly cache add   scope: null,
-215 silly cache add   name: 'setprototypeof',
-215 silly cache add   rawSpec: '1.0.3',
-215 silly cache add   spec: '1.0.3',
+215 silly cache add   name: 'depd',
+215 silly cache add   rawSpec: '1.1.1',
+215 silly cache add   spec: '1.1.1',
 215 silly cache add   type: 'version' }
-216 silly addNamed setprototypeof@1.0.3
-217 verbose addNamed "1.0.3" is a plain semver version for setprototypeof
-218 silly mapToRegistry name setprototypeof
+216 silly addNamed depd@1.1.1
+217 verbose addNamed "1.1.1" is a plain semver version for depd
+218 silly mapToRegistry name depd
 219 silly mapToRegistry using default registry
 220 silly mapToRegistry registry https://registry.npmjs.org/
-221 silly mapToRegistry uri https://registry.npmjs.org/setprototypeof
-222 verbose addNameVersion registry:https://registry.npmjs.org/setprototypeof not in flight; fetching
-223 silly resolveWithNewModule depd@1.1.1 checking installable status
-224 silly cache add args [ 'depd@1.1.1', null ]
-225 verbose cache add spec depd@1.1.1
-226 silly cache add parsed spec Result {
-226 silly cache add   raw: 'depd@1.1.1',
-226 silly cache add   scope: null,
-226 silly cache add   name: 'depd',
-226 silly cache add   rawSpec: '1.1.1',
-226 silly cache add   spec: '1.1.1',
-226 silly cache add   type: 'version' }
-227 silly addNamed depd@1.1.1
-228 verbose addNamed "1.1.1" is a plain semver version for depd
-229 silly mapToRegistry name depd
-230 silly mapToRegistry using default registry
-231 silly mapToRegistry registry https://registry.npmjs.org/
-232 silly mapToRegistry uri https://registry.npmjs.org/depd
-233 verbose addNameVersion registry:https://registry.npmjs.org/depd not in flight; fetching
-234 verbose get https://registry.npmjs.org/setprototypeof not expired, no request
-235 verbose get https://registry.npmjs.org/depd not expired, no request
+221 silly mapToRegistry uri https://registry.npmjs.org/depd
+222 verbose addNameVersion registry:https://registry.npmjs.org/depd not in flight; fetching
+223 verbose get https://registry.npmjs.org/depd not expired, no request
+224 silly resolveWithNewModule setprototypeof@1.0.3 checking installable status
+225 silly cache add args [ 'setprototypeof@1.0.3', null ]
+226 verbose cache add spec setprototypeof@1.0.3
+227 silly cache add parsed spec Result {
+227 silly cache add   raw: 'setprototypeof@1.0.3',
+227 silly cache add   scope: null,
+227 silly cache add   name: 'setprototypeof',
+227 silly cache add   rawSpec: '1.0.3',
+227 silly cache add   spec: '1.0.3',
+227 silly cache add   type: 'version' }
+228 silly addNamed setprototypeof@1.0.3
+229 verbose addNamed "1.0.3" is a plain semver version for setprototypeof
+230 silly mapToRegistry name setprototypeof
+231 silly mapToRegistry using default registry
+232 silly mapToRegistry registry https://registry.npmjs.org/
+233 silly mapToRegistry uri https://registry.npmjs.org/setprototypeof
+234 verbose addNameVersion registry:https://registry.npmjs.org/setprototypeof not in flight; fetching
+235 verbose get https://registry.npmjs.org/setprototypeof not expired, no request
 236 silly cache afterAdd setprototypeof@1.0.3
 237 verbose afterAdd /home/warlock/.npm/setprototypeof/1.0.3/package/package.json not in flight; writing
-238 silly cache afterAdd depd@1.1.1
-239 verbose afterAdd /home/warlock/.npm/depd/1.1.1/package/package.json not in flight; writing
-240 verbose afterAdd /home/warlock/.npm/setprototypeof/1.0.3/package/package.json written
+238 verbose afterAdd /home/warlock/.npm/setprototypeof/1.0.3/package/package.json written
+239 silly cache afterAdd depd@1.1.1
+240 verbose afterAdd /home/warlock/.npm/depd/1.1.1/package/package.json not in flight; writing
 241 verbose afterAdd /home/warlock/.npm/depd/1.1.1/package/package.json written
 242 silly loadAllDepsIntoIdealTree Finishing
 243 silly idealTree:prePrune jeeves2k18@1.0.0
+243 silly idealTree:prePrune ├── @types/body-parser@1.17.0
+243 silly idealTree:prePrune ├── @types/connect@3.4.32
+243 silly idealTree:prePrune ├── @types/cors@2.8.4
+243 silly idealTree:prePrune ├── @types/events@1.2.0
+243 silly idealTree:prePrune ├── @types/express-serve-static-core@4.16.0
+243 silly idealTree:prePrune ├── @types/express@4.16.0
+243 silly idealTree:prePrune ├── @types/jsonwebtoken@7.2.8
+243 silly idealTree:prePrune ├── @types/lodash@4.14.116
+243 silly idealTree:prePrune ├── @types/mime@2.0.0
+243 silly idealTree:prePrune ├── @types/node@10.11.2
+243 silly idealTree:prePrune ├── @types/range-parser@1.2.2
+243 silly idealTree:prePrune ├── @types/serve-static@1.13.2
 243 silly idealTree:prePrune ├── accepts@1.3.5
 243 silly idealTree:prePrune ├── array-flatten@1.1.1
 243 silly idealTree:prePrune ├─┬ body-parser@1.18.3
 243 silly idealTree:prePrune │ └── qs@6.5.2
+243 silly idealTree:prePrune ├── buffer-equal-constant-time@1.0.1
 243 silly idealTree:prePrune ├── bytes@3.0.0
 243 silly idealTree:prePrune ├── content-disposition@0.5.2
 243 silly idealTree:prePrune ├── content-type@1.0.4
 243 silly idealTree:prePrune ├── cookie-signature@1.0.6
 243 silly idealTree:prePrune ├── cookie@0.3.1
+243 silly idealTree:prePrune ├── cors@2.8.4
 243 silly idealTree:prePrune ├── debug@2.6.9
 243 silly idealTree:prePrune ├── depd@1.1.2
 243 silly idealTree:prePrune ├── destroy@1.0.4
+243 silly idealTree:prePrune ├── ecdsa-sig-formatter@1.0.10
 243 silly idealTree:prePrune ├── ee-first@1.1.1
 243 silly idealTree:prePrune ├── encodeurl@1.0.2
 243 silly idealTree:prePrune ├── escape-html@1.0.3
@@ -576,12 +591,32 @@
 243 silly idealTree:prePrune │   ├── http-errors@1.6.2
 243 silly idealTree:prePrune │   └── setprototypeof@1.0.3
 243 silly idealTree:prePrune ├── finalhandler@1.1.1
+243 silly idealTree:prePrune ├─┬ firebase-functions@2.0.5
+243 silly idealTree:prePrune │ ├── body-parser@1.18.2
+243 silly idealTree:prePrune │ ├── express@4.16.3
+243 silly idealTree:prePrune │ ├── iconv-lite@0.4.19
+243 silly idealTree:prePrune │ └─┬ raw-body@2.3.2
+243 silly idealTree:prePrune │   ├── depd@1.1.1
+243 silly idealTree:prePrune │   ├── http-errors@1.6.2
+243 silly idealTree:prePrune │   └── setprototypeof@1.0.3
 243 silly idealTree:prePrune ├── forwarded@0.1.2
 243 silly idealTree:prePrune ├── fresh@0.5.2
 243 silly idealTree:prePrune ├── http-errors@1.6.3
 243 silly idealTree:prePrune ├── iconv-lite@0.4.23
 243 silly idealTree:prePrune ├── inherits@2.0.3
 243 silly idealTree:prePrune ├── ipaddr.js@1.8.0
+243 silly idealTree:prePrune ├─┬ jsonwebtoken@8.3.0
+243 silly idealTree:prePrune │ └── ms@2.1.1
+243 silly idealTree:prePrune ├── jwa@1.1.6
+243 silly idealTree:prePrune ├── jws@3.1.5
+243 silly idealTree:prePrune ├── lodash.includes@4.3.0
+243 silly idealTree:prePrune ├── lodash.isboolean@3.0.3
+243 silly idealTree:prePrune ├── lodash.isinteger@4.0.4
+243 silly idealTree:prePrune ├── lodash.isnumber@3.0.3
+243 silly idealTree:prePrune ├── lodash.isplainobject@4.0.6
+243 silly idealTree:prePrune ├── lodash.isstring@4.0.1
+243 silly idealTree:prePrune ├── lodash.once@4.1.1
+243 silly idealTree:prePrune ├── lodash@4.17.11
 243 silly idealTree:prePrune ├── media-typer@0.3.0
 243 silly idealTree:prePrune ├── merge-descriptors@1.0.1
 243 silly idealTree:prePrune ├── methods@1.1.2
@@ -591,6 +626,7 @@
 243 silly idealTree:prePrune ├── ms@2.0.0
 243 silly idealTree:prePrune ├── negotiator@0.6.1
 243 silly idealTree:prePrune ├── node-fetch@2.2.0
+243 silly idealTree:prePrune ├── object-assign@4.1.1
 243 silly idealTree:prePrune ├── on-finished@2.3.0
 243 silly idealTree:prePrune ├── parseurl@1.3.2
 243 silly idealTree:prePrune ├── path-to-regexp@0.1.7
@@ -610,29 +646,64 @@
 243 silly idealTree:prePrune └── vary@1.1.2
 244 silly loadIdealTree Finishing
 245 silly currentTree jeeves2k18@1.0.0
+245 silly currentTree ├── @types/body-parser@1.17.0
+245 silly currentTree ├── @types/connect@3.4.32
+245 silly currentTree ├── @types/cors@2.8.4
+245 silly currentTree ├── @types/events@1.2.0
+245 silly currentTree ├── @types/express-serve-static-core@4.16.0
+245 silly currentTree ├── @types/express@4.16.0
+245 silly currentTree ├── @types/jsonwebtoken@7.2.8
+245 silly currentTree ├── @types/lodash@4.14.116
+245 silly currentTree ├── @types/mime@2.0.0
+245 silly currentTree ├── @types/node@10.11.2
+245 silly currentTree ├── @types/range-parser@1.2.2
+245 silly currentTree ├── @types/serve-static@1.13.2
 245 silly currentTree ├── accepts@1.3.5
 245 silly currentTree ├── array-flatten@1.1.1
 245 silly currentTree ├─┬ body-parser@1.18.3
 245 silly currentTree │ └── qs@6.5.2
+245 silly currentTree ├── buffer-equal-constant-time@1.0.1
 245 silly currentTree ├── bytes@3.0.0
 245 silly currentTree ├── content-disposition@0.5.2
 245 silly currentTree ├── content-type@1.0.4
 245 silly currentTree ├── cookie-signature@1.0.6
 245 silly currentTree ├── cookie@0.3.1
+245 silly currentTree ├── cors@2.8.4
 245 silly currentTree ├── debug@2.6.9
 245 silly currentTree ├── depd@1.1.2
 245 silly currentTree ├── destroy@1.0.4
+245 silly currentTree ├── ecdsa-sig-formatter@1.0.10
 245 silly currentTree ├── ee-first@1.1.1
 245 silly currentTree ├── encodeurl@1.0.2
 245 silly currentTree ├── escape-html@1.0.3
 245 silly currentTree ├── etag@1.8.1
 245 silly currentTree ├── finalhandler@1.1.1
+245 silly currentTree ├─┬ firebase-functions@2.0.5
+245 silly currentTree │ ├── body-parser@1.18.2
+245 silly currentTree │ ├── express@4.16.3
+245 silly currentTree │ ├── iconv-lite@0.4.19
+245 silly currentTree │ └─┬ raw-body@2.3.2
+245 silly currentTree │   ├── depd@1.1.1
+245 silly currentTree │   ├── http-errors@1.6.2
+245 silly currentTree │   └── setprototypeof@1.0.3
 245 silly currentTree ├── forwarded@0.1.2
 245 silly currentTree ├── fresh@0.5.2
 245 silly currentTree ├── http-errors@1.6.3
 245 silly currentTree ├── iconv-lite@0.4.23
 245 silly currentTree ├── inherits@2.0.3
 245 silly currentTree ├── ipaddr.js@1.8.0
+245 silly currentTree ├─┬ jsonwebtoken@8.3.0
+245 silly currentTree │ └── ms@2.1.1
+245 silly currentTree ├── jwa@1.1.6
+245 silly currentTree ├── jws@3.1.5
+245 silly currentTree ├── lodash.includes@4.3.0
+245 silly currentTree ├── lodash.isboolean@3.0.3
+245 silly currentTree ├── lodash.isinteger@4.0.4
+245 silly currentTree ├── lodash.isnumber@3.0.3
+245 silly currentTree ├── lodash.isplainobject@4.0.6
+245 silly currentTree ├── lodash.isstring@4.0.1
+245 silly currentTree ├── lodash.once@4.1.1
+245 silly currentTree ├── lodash@4.17.11
 245 silly currentTree ├── media-typer@0.3.0
 245 silly currentTree ├── merge-descriptors@1.0.1
 245 silly currentTree ├── methods@1.1.2
@@ -642,6 +713,7 @@
 245 silly currentTree ├── ms@2.0.0
 245 silly currentTree ├── negotiator@0.6.1
 245 silly currentTree ├── node-fetch@2.2.0
+245 silly currentTree ├── object-assign@4.1.1
 245 silly currentTree ├── on-finished@2.3.0
 245 silly currentTree ├── parseurl@1.3.2
 245 silly currentTree ├── path-to-regexp@0.1.7
@@ -660,18 +732,33 @@
 245 silly currentTree ├── utils-merge@1.0.1
 245 silly currentTree └── vary@1.1.2
 246 silly idealTree jeeves2k18@1.0.0
+246 silly idealTree ├── @types/body-parser@1.17.0
+246 silly idealTree ├── @types/connect@3.4.32
+246 silly idealTree ├── @types/cors@2.8.4
+246 silly idealTree ├── @types/events@1.2.0
+246 silly idealTree ├── @types/express-serve-static-core@4.16.0
+246 silly idealTree ├── @types/express@4.16.0
+246 silly idealTree ├── @types/jsonwebtoken@7.2.8
+246 silly idealTree ├── @types/lodash@4.14.116
+246 silly idealTree ├── @types/mime@2.0.0
+246 silly idealTree ├── @types/node@10.11.2
+246 silly idealTree ├── @types/range-parser@1.2.2
+246 silly idealTree ├── @types/serve-static@1.13.2
 246 silly idealTree ├── accepts@1.3.5
 246 silly idealTree ├── array-flatten@1.1.1
 246 silly idealTree ├─┬ body-parser@1.18.3
 246 silly idealTree │ └── qs@6.5.2
+246 silly idealTree ├── buffer-equal-constant-time@1.0.1
 246 silly idealTree ├── bytes@3.0.0
 246 silly idealTree ├── content-disposition@0.5.2
 246 silly idealTree ├── content-type@1.0.4
 246 silly idealTree ├── cookie-signature@1.0.6
 246 silly idealTree ├── cookie@0.3.1
+246 silly idealTree ├── cors@2.8.4
 246 silly idealTree ├── debug@2.6.9
 246 silly idealTree ├── depd@1.1.2
 246 silly idealTree ├── destroy@1.0.4
+246 silly idealTree ├── ecdsa-sig-formatter@1.0.10
 246 silly idealTree ├── ee-first@1.1.1
 246 silly idealTree ├── encodeurl@1.0.2
 246 silly idealTree ├── escape-html@1.0.3
@@ -684,12 +771,32 @@
 246 silly idealTree │   ├── http-errors@1.6.2
 246 silly idealTree │   └── setprototypeof@1.0.3
 246 silly idealTree ├── finalhandler@1.1.1
+246 silly idealTree ├─┬ firebase-functions@2.0.5
+246 silly idealTree │ ├── body-parser@1.18.2
+246 silly idealTree │ ├── express@4.16.3
+246 silly idealTree │ ├── iconv-lite@0.4.19
+246 silly idealTree │ └─┬ raw-body@2.3.2
+246 silly idealTree │   ├── depd@1.1.1
+246 silly idealTree │   ├── http-errors@1.6.2
+246 silly idealTree │   └── setprototypeof@1.0.3
 246 silly idealTree ├── forwarded@0.1.2
 246 silly idealTree ├── fresh@0.5.2
 246 silly idealTree ├── http-errors@1.6.3
 246 silly idealTree ├── iconv-lite@0.4.23
 246 silly idealTree ├── inherits@2.0.3
 246 silly idealTree ├── ipaddr.js@1.8.0
+246 silly idealTree ├─┬ jsonwebtoken@8.3.0
+246 silly idealTree │ └── ms@2.1.1
+246 silly idealTree ├── jwa@1.1.6
+246 silly idealTree ├── jws@3.1.5
+246 silly idealTree ├── lodash.includes@4.3.0
+246 silly idealTree ├── lodash.isboolean@3.0.3
+246 silly idealTree ├── lodash.isinteger@4.0.4
+246 silly idealTree ├── lodash.isnumber@3.0.3
+246 silly idealTree ├── lodash.isplainobject@4.0.6
+246 silly idealTree ├── lodash.isstring@4.0.1
+246 silly idealTree ├── lodash.once@4.1.1
+246 silly idealTree ├── lodash@4.17.11
 246 silly idealTree ├── media-typer@0.3.0
 246 silly idealTree ├── merge-descriptors@1.0.1
 246 silly idealTree ├── methods@1.1.2
@@ -699,6 +806,7 @@
 246 silly idealTree ├── ms@2.0.0
 246 silly idealTree ├── negotiator@0.6.1
 246 silly idealTree ├── node-fetch@2.2.0
+246 silly idealTree ├── object-assign@4.1.1
 246 silly idealTree ├── on-finished@2.3.0
 246 silly idealTree ├── parseurl@1.3.2
 246 silly idealTree ├── path-to-regexp@0.1.7
@@ -807,182 +915,182 @@
 335 silly extract body-parser@1.18.2
 336 silly extract express@4.16.3
 337 silly extract node-fetch@2.2.0
-338 verbose unbuild node_modules/.staging/iconv-lite-54bd87da
-339 verbose unbuild node_modules/.staging/depd-f2f07e06
+338 verbose unbuild node_modules/.staging/depd-f2f07e06
+339 verbose unbuild node_modules/.staging/iconv-lite-54bd87da
 340 verbose unbuild node_modules/.staging/setprototypeof-42d808e7
 341 verbose unbuild node_modules/.staging/http-errors-9c6a37d3
 342 verbose unbuild node_modules/.staging/raw-body-b5959d7c
 343 verbose unbuild node_modules/.staging/body-parser-7f7a16be
 344 verbose unbuild node_modules/.staging/express-5847800f
-345 verbose unbuild node_modules/.staging/node-fetch-6e47f5b5
-346 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/iconv-lite-54bd87da is being purged from base /home/warlock/jeeves2k18/jeeves2k18
-347 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/iconv-lite-54bd87da
-348 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/depd-f2f07e06 is being purged from base /home/warlock/jeeves2k18/jeeves2k18
-349 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/depd-f2f07e06
-350 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7 is being purged from base /home/warlock/jeeves2k18/jeeves2k18
-351 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7
-352 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3 is being purged from base /home/warlock/jeeves2k18/jeeves2k18
-353 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3
-354 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c is being purged from base /home/warlock/jeeves2k18/jeeves2k18
-355 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c
-356 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be is being purged from base /home/warlock/jeeves2k18/jeeves2k18
-357 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be
-358 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/express-5847800f is being purged from base /home/warlock/jeeves2k18/jeeves2k18
-359 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/express-5847800f
-360 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5 is being purged from base /home/warlock/jeeves2k18/jeeves2k18
-361 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5
-362 verbose tar unpack /home/warlock/.npm/iconv-lite/0.4.19/package.tgz
-363 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/iconv-lite-54bd87da
-364 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/iconv-lite-54bd87da is being purged
-365 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/iconv-lite-54bd87da
-366 verbose tar unpack /home/warlock/.npm/depd/1.1.1/package.tgz
-367 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/depd-f2f07e06
-368 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/depd-f2f07e06 is being purged
-369 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/depd-f2f07e06
-370 verbose tar unpack /home/warlock/.npm/setprototypeof/1.0.3/package.tgz
-371 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7
-372 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7 is being purged
-373 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7
-374 verbose tar unpack /home/warlock/.npm/http-errors/1.6.2/package.tgz
-375 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3
-376 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3 is being purged
-377 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3
-378 verbose tar unpack /home/warlock/.npm/raw-body/2.3.2/package.tgz
-379 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c
-380 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c is being purged
-381 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c
-382 verbose tar unpack /home/warlock/.npm/body-parser/1.18.2/package.tgz
-383 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be
-384 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be is being purged
-385 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be
-386 verbose tar unpack /home/warlock/.npm/express/4.16.3/package.tgz
-387 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/express-5847800f
-388 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/express-5847800f is being purged
-389 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/express-5847800f
-390 verbose tar unpack /home/warlock/.npm/node-fetch/2.2.0/package.tgz
-391 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5
-392 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5 is being purged
-393 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5
-394 silly gunzTarPerm modes [ '755', '644' ]
-395 silly gunzTarPerm modes [ '755', '644' ]
-396 silly gunzTarPerm modes [ '755', '644' ]
-397 silly gunzTarPerm modes [ '755', '644' ]
-398 silly gunzTarPerm modes [ '755', '644' ]
-399 silly gunzTarPerm modes [ '755', '644' ]
-400 silly gunzTarPerm modes [ '755', '644' ]
-401 silly gunzTarPerm modes [ '755', '644' ]
+345 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/depd-f2f07e06 is being purged from base /home/warlock/jeeves2k18/jeeves2k18
+346 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/depd-f2f07e06
+347 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/iconv-lite-54bd87da is being purged from base /home/warlock/jeeves2k18/jeeves2k18
+348 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/iconv-lite-54bd87da
+349 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7 is being purged from base /home/warlock/jeeves2k18/jeeves2k18
+350 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7
+351 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3 is being purged from base /home/warlock/jeeves2k18/jeeves2k18
+352 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3
+353 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c is being purged from base /home/warlock/jeeves2k18/jeeves2k18
+354 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c
+355 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be is being purged from base /home/warlock/jeeves2k18/jeeves2k18
+356 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be
+357 verbose tar unpack /home/warlock/.npm/depd/1.1.1/package.tgz
+358 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/depd-f2f07e06
+359 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/depd-f2f07e06 is being purged
+360 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/depd-f2f07e06
+361 verbose tar unpack /home/warlock/.npm/iconv-lite/0.4.19/package.tgz
+362 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/iconv-lite-54bd87da
+363 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/iconv-lite-54bd87da is being purged
+364 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/iconv-lite-54bd87da
+365 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/express-5847800f is being purged from base /home/warlock/jeeves2k18/jeeves2k18
+366 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/express-5847800f
+367 verbose tar unpack /home/warlock/.npm/setprototypeof/1.0.3/package.tgz
+368 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7
+369 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7 is being purged
+370 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7
+371 verbose tar unpack /home/warlock/.npm/http-errors/1.6.2/package.tgz
+372 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3
+373 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3 is being purged
+374 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3
+375 verbose tar unpack /home/warlock/.npm/raw-body/2.3.2/package.tgz
+376 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c
+377 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c is being purged
+378 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c
+379 verbose tar unpack /home/warlock/.npm/body-parser/1.18.2/package.tgz
+380 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be
+381 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be is being purged
+382 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be
+383 silly gunzTarPerm modes [ '755', '644' ]
+384 silly gunzTarPerm modes [ '755', '644' ]
+385 verbose tar unpack /home/warlock/.npm/express/4.16.3/package.tgz
+386 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/express-5847800f
+387 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/express-5847800f is being purged
+388 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/express-5847800f
+389 silly gunzTarPerm modes [ '755', '644' ]
+390 silly gunzTarPerm modes [ '755', '644' ]
+391 silly gunzTarPerm modes [ '755', '644' ]
+392 silly gunzTarPerm modes [ '755', '644' ]
+393 silly gunzTarPerm modes [ '755', '644' ]
+394 silly gunzTarPerm extractEntry package.json
+395 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+396 silly gunzTarPerm extractEntry package.json
+397 silly gunzTarPerm extractEntry package.json
+398 silly gunzTarPerm extractEntry package.json
+399 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+400 silly gunzTarPerm extractEntry package.json
+401 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
 402 silly gunzTarPerm extractEntry package.json
-403 silly gunzTarPerm extractEntry package.json
-404 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
-405 silly gunzTarPerm extractEntry package.json
-406 silly gunzTarPerm extractEntry package.json
-407 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
-408 silly gunzTarPerm extractEntry package.json
-409 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
-410 silly gunzTarPerm extractEntry package.json
-411 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
-412 silly gunzTarPerm extractEntry package.json
-413 silly gunzTarPerm extractEntry package.json
-414 silly gunzTarPerm extractEntry .npmignore
-415 silly gunzTarPerm extractEntry README.md
-416 silly gunzTarPerm extractEntry LICENSE
-417 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
-418 silly gunzTarPerm extractEntry index.js
-419 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
-420 silly gunzTarPerm extractEntry README.md
-421 silly gunzTarPerm extractEntry LICENSE
-422 silly gunzTarPerm extractEntry README.md
-423 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
-424 silly gunzTarPerm extractEntry LICENSE
-425 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
-426 silly gunzTarPerm extractEntry README.md
-427 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
-428 silly gunzTarPerm extractEntry LICENSE
-429 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
-430 silly gunzTarPerm extractEntry README.md
-431 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
-432 silly gunzTarPerm extractEntry LICENSE
-433 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
-434 silly gunzTarPerm extractEntry index.js
-435 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
-436 silly gunzTarPerm extractEntry HISTORY.md
-437 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
-438 silly gunzTarPerm extractEntry lib/read.js
-439 silly gunzTarPerm modified mode [ 'lib/read.js', 438, 420 ]
-440 silly gunzTarPerm extractEntry lib/types/json.js
-441 silly gunzTarPerm modified mode [ 'lib/types/json.js', 438, 420 ]
-442 silly gunzTarPerm extractEntry lib/types/raw.js
-443 silly gunzTarPerm modified mode [ 'lib/types/raw.js', 438, 420 ]
-444 silly gunzTarPerm extractEntry lib/types/text.js
-445 silly gunzTarPerm modified mode [ 'lib/types/text.js', 438, 420 ]
-446 silly gunzTarPerm extractEntry lib/types/urlencoded.js
-447 silly gunzTarPerm modified mode [ 'lib/types/urlencoded.js', 438, 420 ]
-448 silly gunzTarPerm extractEntry LICENSE
-449 silly gunzTarPerm extractEntry browser.js
-450 silly gunzTarPerm extractEntry CHANGELOG.md
-451 silly gunzTarPerm extractEntry index.js
-452 silly gunzTarPerm extractEntry History.md
-453 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
-454 silly gunzTarPerm extractEntry Readme.md
-455 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
-456 silly gunzTarPerm extractEntry lib/browser/index.js
-457 silly gunzTarPerm modified mode [ 'lib/browser/index.js', 438, 420 ]
-458 silly gunzTarPerm extractEntry lib/compat/callsite-tostring.js
-459 silly gunzTarPerm modified mode [ 'lib/compat/callsite-tostring.js', 438, 420 ]
-460 silly gunzTarPerm extractEntry lib/compat/event-listener-count.js
-461 silly gunzTarPerm modified mode [ 'lib/compat/event-listener-count.js', 438, 420 ]
-462 silly gunzTarPerm extractEntry lib/compat/index.js
-463 silly gunzTarPerm modified mode [ 'lib/compat/index.js', 438, 420 ]
-464 silly gunzTarPerm extractEntry LICENSE
-465 silly gunzTarPerm extractEntry encodings/dbcs-codec.js
-466 silly gunzTarPerm extractEntry index.js
-467 silly gunzTarPerm extractEntry index.js
-468 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
-469 silly gunzTarPerm extractEntry HISTORY.md
-470 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
-471 silly gunzTarPerm extractEntry index.js
-472 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
-473 silly gunzTarPerm extractEntry HISTORY.md
-474 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
-475 silly gunzTarPerm extractEntry index.d.ts
-476 silly gunzTarPerm modified mode [ 'index.d.ts', 438, 420 ]
-477 silly gunzTarPerm extractEntry Readme.md
-478 silly gunzTarPerm extractEntry History.md
-479 silly gunzTarPerm extractEntry LICENSE.md
-480 silly gunzTarPerm extractEntry README.md
-481 silly gunzTarPerm extractEntry encodings/dbcs-data.js
-482 silly gunzTarPerm extractEntry lib/index.es.js
-483 silly gunzTarPerm extractEntry lib/application.js
-484 silly gunzTarPerm extractEntry encodings/index.js
-485 silly gunzTarPerm extractEntry encodings/internal.js
-486 silly gunzTarPerm extractEntry lib/express.js
-487 silly gunzTarPerm extractEntry lib/request.js
-488 silly gunzTarPerm extractEntry lib/index.js
-489 silly gunzTarPerm extractEntry lib/index.mjs
-490 silly gunzTarPerm extractEntry encodings/sbcs-codec.js
-491 silly gunzTarPerm extractEntry encodings/sbcs-data-generated.js
-492 silly gunzTarPerm extractEntry encodings/sbcs-data.js
-493 silly gunzTarPerm extractEntry lib/response.js
-494 silly gunzTarPerm extractEntry lib/utils.js
-495 silly gunzTarPerm extractEntry lib/view.js
-496 silly gunzTarPerm extractEntry encodings/utf16.js
-497 silly gunzTarPerm extractEntry lib/middleware/init.js
-498 silly gunzTarPerm extractEntry lib/middleware/query.js
-499 silly gunzTarPerm extractEntry lib/router/index.js
-500 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7/node_modules is being purged
-501 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7/node_modules
-502 silly gunzTarPerm extractEntry encodings/utf7.js
-503 silly gunzTarPerm extractEntry encodings/tables/big5-added.json
-504 silly gunzTarPerm extractEntry lib/router/layer.js
-505 silly gunzTarPerm extractEntry lib/router/route.js
-506 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3/node_modules is being purged
-507 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3/node_modules
-508 silly gunzTarPerm extractEntry encodings/tables/cp936.json
-509 silly gunzTarPerm extractEntry encodings/tables/cp949.json
-510 silly gunzTarPerm extractEntry encodings/tables/cp950.json
-511 silly gunzTarPerm extractEntry encodings/tables/eucjp.json
-512 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c/node_modules is being purged
-513 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c/node_modules
+403 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+404 silly gunzTarPerm extractEntry package.json
+405 silly gunzTarPerm extractEntry LICENSE
+406 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+407 silly gunzTarPerm extractEntry index.js
+408 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+409 silly gunzTarPerm extractEntry .npmignore
+410 silly gunzTarPerm extractEntry README.md
+411 silly gunzTarPerm extractEntry README.md
+412 silly gunzTarPerm extractEntry LICENSE
+413 silly gunzTarPerm extractEntry README.md
+414 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+415 silly gunzTarPerm extractEntry LICENSE
+416 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+417 silly gunzTarPerm extractEntry README.md
+418 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+419 silly gunzTarPerm extractEntry LICENSE
+420 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+421 silly gunzTarPerm extractEntry README.md
+422 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+423 silly gunzTarPerm extractEntry LICENSE
+424 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+425 silly gunzTarPerm extractEntry index.js
+426 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+427 silly gunzTarPerm extractEntry HISTORY.md
+428 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+429 silly gunzTarPerm extractEntry lib/read.js
+430 silly gunzTarPerm modified mode [ 'lib/read.js', 438, 420 ]
+431 silly gunzTarPerm extractEntry lib/types/json.js
+432 silly gunzTarPerm modified mode [ 'lib/types/json.js', 438, 420 ]
+433 silly gunzTarPerm extractEntry lib/types/raw.js
+434 silly gunzTarPerm modified mode [ 'lib/types/raw.js', 438, 420 ]
+435 silly gunzTarPerm extractEntry lib/types/text.js
+436 silly gunzTarPerm modified mode [ 'lib/types/text.js', 438, 420 ]
+437 silly gunzTarPerm extractEntry lib/types/urlencoded.js
+438 silly gunzTarPerm modified mode [ 'lib/types/urlencoded.js', 438, 420 ]
+439 silly gunzTarPerm extractEntry LICENSE
+440 silly gunzTarPerm extractEntry index.js
+441 silly gunzTarPerm extractEntry History.md
+442 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+443 silly gunzTarPerm extractEntry Readme.md
+444 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+445 silly gunzTarPerm extractEntry lib/browser/index.js
+446 silly gunzTarPerm modified mode [ 'lib/browser/index.js', 438, 420 ]
+447 silly gunzTarPerm extractEntry lib/compat/callsite-tostring.js
+448 silly gunzTarPerm modified mode [ 'lib/compat/callsite-tostring.js', 438, 420 ]
+449 silly gunzTarPerm extractEntry lib/compat/event-listener-count.js
+450 silly gunzTarPerm modified mode [ 'lib/compat/event-listener-count.js', 438, 420 ]
+451 silly gunzTarPerm extractEntry lib/compat/index.js
+452 silly gunzTarPerm modified mode [ 'lib/compat/index.js', 438, 420 ]
+453 silly gunzTarPerm extractEntry LICENSE
+454 silly gunzTarPerm extractEntry encodings/dbcs-codec.js
+455 silly gunzTarPerm extractEntry index.js
+456 silly gunzTarPerm extractEntry index.js
+457 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+458 silly gunzTarPerm extractEntry HISTORY.md
+459 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+460 silly gunzTarPerm extractEntry index.js
+461 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+462 silly gunzTarPerm extractEntry HISTORY.md
+463 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+464 silly gunzTarPerm extractEntry index.d.ts
+465 silly gunzTarPerm modified mode [ 'index.d.ts', 438, 420 ]
+466 silly gunzTarPerm extractEntry Readme.md
+467 silly gunzTarPerm extractEntry History.md
+468 verbose unbuild node_modules/.staging/node-fetch-6e47f5b5
+469 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5 is being purged from base /home/warlock/jeeves2k18/jeeves2k18
+470 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5
+471 verbose tar unpack /home/warlock/.npm/node-fetch/2.2.0/package.tgz
+472 verbose tar unpacking to /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5
+473 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5 is being purged
+474 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5
+475 silly gunzTarPerm modes [ '755', '644' ]
+476 silly gunzTarPerm extractEntry encodings/dbcs-data.js
+477 silly gunzTarPerm extractEntry lib/application.js
+478 silly gunzTarPerm extractEntry encodings/index.js
+479 silly gunzTarPerm extractEntry encodings/internal.js
+480 silly gunzTarPerm extractEntry lib/express.js
+481 silly gunzTarPerm extractEntry lib/request.js
+482 silly gunzTarPerm extractEntry encodings/sbcs-codec.js
+483 silly gunzTarPerm extractEntry encodings/sbcs-data-generated.js
+484 silly gunzTarPerm extractEntry encodings/sbcs-data.js
+485 silly gunzTarPerm extractEntry encodings/utf16.js
+486 silly gunzTarPerm extractEntry lib/response.js
+487 silly gunzTarPerm extractEntry lib/utils.js
+488 silly gunzTarPerm extractEntry lib/view.js
+489 silly gunzTarPerm extractEntry lib/middleware/init.js
+490 silly gunzTarPerm extractEntry package.json
+491 silly gunzTarPerm extractEntry lib/middleware/query.js
+492 silly gunzTarPerm extractEntry lib/router/index.js
+493 silly gunzTarPerm extractEntry browser.js
+494 silly gunzTarPerm extractEntry CHANGELOG.md
+495 silly gunzTarPerm extractEntry lib/router/layer.js
+496 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7/node_modules is being purged
+497 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/setprototypeof-42d808e7/node_modules
+498 silly gunzTarPerm extractEntry lib/router/route.js
+499 silly gunzTarPerm extractEntry encodings/utf7.js
+500 silly gunzTarPerm extractEntry encodings/tables/big5-added.json
+501 silly gunzTarPerm extractEntry LICENSE.md
+502 silly gunzTarPerm extractEntry README.md
+503 silly gunzTarPerm extractEntry encodings/tables/cp936.json
+504 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3/node_modules is being purged
+505 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/http-errors-9c6a37d3/node_modules
+506 silly gunzTarPerm extractEntry encodings/tables/cp949.json
+507 silly gunzTarPerm extractEntry lib/index.es.js
+508 silly gunzTarPerm extractEntry encodings/tables/cp950.json
+509 silly gunzTarPerm extractEntry encodings/tables/eucjp.json
+510 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c/node_modules is being purged
+511 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/raw-body-b5959d7c/node_modules
+512 silly gunzTarPerm extractEntry lib/index.js
+513 silly gunzTarPerm extractEntry lib/index.mjs
 514 silly gunzTarPerm extractEntry encodings/tables/gb18030-ranges.json
 515 silly gunzTarPerm extractEntry encodings/tables/gbk-added.json
 516 silly gunzTarPerm extractEntry encodings/tables/shiftjis.json
@@ -992,13 +1100,13 @@
 520 silly gunzTarPerm extractEntry lib/index.js
 521 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/depd-f2f07e06/node_modules is being purged
 522 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/depd-f2f07e06/node_modules
-523 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5/node_modules is being purged
-524 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5/node_modules
-525 silly gunzTarPerm extractEntry lib/streams.js
-526 silly gunzTarPerm extractEntry lib/index.d.ts
-527 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be/node_modules is being purged
-528 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be/node_modules
-529 silly gunzTarPerm extractEntry Changelog.md
+523 silly gunzTarPerm extractEntry lib/streams.js
+524 silly gunzTarPerm extractEntry lib/index.d.ts
+525 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be/node_modules is being purged
+526 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/body-parser-7f7a16be/node_modules
+527 silly gunzTarPerm extractEntry Changelog.md
+528 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5/node_modules is being purged
+529 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/node-fetch-6e47f5b5/node_modules
 530 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/express-5847800f/node_modules is being purged
 531 verbose gentlyRm don't care about contents; nuking /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/express-5847800f/node_modules
 532 silly gentlyRm /home/warlock/jeeves2k18/jeeves2k18/node_modules/.staging/iconv-lite-54bd87da/node_modules is being purged
@@ -1044,22 +1152,23 @@
 572 silly runTopLevelLifecycles Starting
 573 silly runTopLevelLifecycles Finishing
 574 silly install printInstalled
-575 verbose stack Error: ENOTEMPTY: directory not empty, rename '/home/warlock/jeeves2k18/jeeves2k18/node_modules/express' -> '/home/warlock/jeeves2k18/jeeves2k18/node_modules/.express.DELETE'
-575 verbose stack     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
-575 verbose stack     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
-575 verbose stack     at FSReqWrap.oncomplete (fs.js:153:5)
-575 verbose stack
-575 verbose stack Error: ENOTEMPTY: directory not empty, rename '/home/warlock/jeeves2k18/jeeves2k18/node_modules/express' -> '/home/warlock/jeeves2k18/jeeves2k18/node_modules/.express.DELETE'
-576 verbose cwd /home/warlock/jeeves2k18/jeeves2k18
-577 error Linux 4.15.0-34-generic
-578 error argv "/usr/bin/node" "/usr/bin/npm" "i"
-579 error node v8.10.0
-580 error npm  v3.5.2
-581 error path /home/warlock/jeeves2k18/jeeves2k18/node_modules/express
-582 error code ENOTEMPTY
-583 error errno -39
-584 error syscall rename
-585 error ENOTEMPTY: directory not empty, rename '/home/warlock/jeeves2k18/jeeves2k18/node_modules/express' -> '/home/warlock/jeeves2k18/jeeves2k18/node_modules/.express.DELETE'
-586 error If you need help, you may report this error at:
-586 error     <https://github.com/npm/npm/issues>
-587 verbose exit [ -39, true ]
+575 warn firebase-functions@2.0.5 requires a peer of firebase-admin@~6.0.0 but none was installed.
+576 verbose stack Error: ENOTEMPTY: directory not empty, rename '/home/warlock/jeeves2k18/jeeves2k18/node_modules/express' -> '/home/warlock/jeeves2k18/jeeves2k18/node_modules/.express.DELETE'
+576 verbose stack     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+576 verbose stack     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+576 verbose stack     at FSReqWrap.oncomplete (fs.js:153:5)
+576 verbose stack
+576 verbose stack Error: ENOTEMPTY: directory not empty, rename '/home/warlock/jeeves2k18/jeeves2k18/node_modules/express' -> '/home/warlock/jeeves2k18/jeeves2k18/node_modules/.express.DELETE'
+577 verbose cwd /home/warlock/jeeves2k18/jeeves2k18
+578 error Linux 4.15.0-34-generic
+579 error argv "/usr/bin/node" "/usr/bin/npm" "i"
+580 error node v8.10.0
+581 error npm  v3.5.2
+582 error path /home/warlock/jeeves2k18/jeeves2k18/node_modules/express
+583 error code ENOTEMPTY
+584 error errno -39
+585 error syscall rename
+586 error ENOTEMPTY: directory not empty, rename '/home/warlock/jeeves2k18/jeeves2k18/node_modules/express' -> '/home/warlock/jeeves2k18/jeeves2k18/node_modules/.express.DELETE'
+587 error If you need help, you may report this error at:
+587 error     <https://github.com/npm/npm/issues>
+588 verbose exit [ -39, true ]

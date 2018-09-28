@@ -1,3 +1,5 @@
+const functions = require('firebase-functions');
+
 const express = require('express');
 
 const app = express();
@@ -16,6 +18,10 @@ app.post('/',
       .then(data => data.json())
       .then(data => console.log('This is Jeeves, I just parsed this data:', data.items[0]));
   });
-
-
 app.listen(port, () => console.log(`Jeeves is on port ${port}!`));
+
+const api1 = functions.https.onRequest(app);
+
+module.exports = {
+  api1,
+};
