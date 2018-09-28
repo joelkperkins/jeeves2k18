@@ -39,7 +39,12 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 
     fetch(`https://www.googleapis.com/customsearch/v1?key=AIzaSyBxosEOVRALmuCV-TzhLjfroQuhd8ex9Sk&cx=006754435674325922743:eel7glah3ve&q=${SEARCH}`)
       .then(data => data.json())
+<<<<<<< HEAD
       .then(data => console.log('This is Jeeves, I just parsed this data:', data.items[0]));
+=======
+      .then(data => console.log('This is Jeeves, I just parsed this data:', data));
+  });
+>>>>>>> parent of 1078d60... got the data from google, now looking for what we want
 
 
     //     mdnResults = new Card({
