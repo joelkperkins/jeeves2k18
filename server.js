@@ -1,8 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { dialogflow } = require('actions-on-google');
+// const { dialogflow } = require('actions-on-google');
 
-const app = dialogflow();
+const app = express();
 const port = process.env.PORT;
 const fetch = require('node-fetch');
 
@@ -19,6 +19,6 @@ app.post('/',
   });
 
 
-app.listen(port, () => console.log(`Jeeves is on port ${port}!`));
+// app.listen(port, () => console.log(`Jeeves is on port ${port}!`));
 
-express().use(bodyParser.json(), app).listen(3000);
+express().use(bodyParser.json(), app).listen(port);
