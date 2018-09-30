@@ -18,7 +18,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   }
 
   const intentMap = new Map();
-  intentMap.set('MDN - search', mdn);
+  intentMap.set('MDN.MDN-custom', mdn);
   agent.handleRequest(intentMap);
 });
 
